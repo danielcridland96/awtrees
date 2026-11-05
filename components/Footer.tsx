@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const year = new Date().getFullYear();
 
 const links = [
@@ -13,12 +15,14 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 grid sm:grid-cols-3 gap-10">
         {/* Brand */}
         <div>
-          <div className="flex items-center gap-2 mb-3">
-            <TreeMark />
-            <span className="font-display font-bold text-cream text-base">
-              A.W. Land &amp; Tree Care
-            </span>
-          </div>
+          <Image
+            src="/logo-dark.svg"
+            alt="A.W. Land & Tree Care"
+            width={242}
+            height={183}
+            unoptimized
+            className="h-24 w-auto mb-4"
+          />
           <p className="text-sm leading-relaxed">
             NPTC qualified tree surgeons serving Newbury and the surrounding
             North Berkshire area. Fully insured, locally trusted.
@@ -80,13 +84,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  );
-}
-
-function TreeMark() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-      <path d="M16 2L6 14h5l-4 8h6v6h6v-6h6l-4-8h5L16 2z" fill="#43B02A" />
-    </svg>
   );
 }
