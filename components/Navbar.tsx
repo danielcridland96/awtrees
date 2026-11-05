@@ -2,24 +2,25 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 bg-cream border-b border-cream-dark shadow-sm">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-20 sm:h-24">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <TreeIcon />
-          <div className="leading-tight">
-            <span className="block text-sm font-bold text-forest tracking-tight">
-              A.W. Land &amp; Tree Care
-            </span>
-            <span className="block text-xs text-forest-light tracking-wide">
-              NPTC Qualified · Fully Insured
-            </span>
-          </div>
+        <Link href="/" className="shrink-0" aria-label="A.W. Land & Tree Care home">
+          <Image
+            src="/logo.svg"
+            alt="A.W. Land & Tree Care"
+            width={242}
+            height={183}
+            unoptimized
+            priority
+            className="h-16 sm:h-20 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -74,14 +75,6 @@ export default function Navbar() {
         </div>
       )}
     </header>
-  );
-}
-
-function TreeIcon() {
-  return (
-    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-      <path d="M16 2L6 14h5l-4 8h6v6h6v-6h6l-4-8h5L16 2z" fill="#58595B" />
-    </svg>
   );
 }
 
