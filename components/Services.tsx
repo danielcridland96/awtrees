@@ -12,9 +12,9 @@ const services = [
     icon: HedgeIcon,
   },
   {
-    title: "Equestrian Fencing and Landscaping",
+    title: "Agricultural and Equestrian Fencing",
     description:
-      "Post-and-rail paddock fencing, gateways, and ground preparation for stables, yards, and horse owners — built safe and built to last.",
+      "Stock-proof farm fencing and post-and-rail paddock fencing, plus gateways, for farms, stables, yards, and horse owners — built safe and built to last.",
     icon: FencingIcon,
   },
   {
