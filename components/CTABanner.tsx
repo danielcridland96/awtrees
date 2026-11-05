@@ -3,10 +3,10 @@ export default function CTABanner() {
     <section className="bg-gold py-14 sm:py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
         <div>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold text-forest">
+          <h2 className="font-display text-2xl sm:text-3xl font-bold text-white">
             Ready to get started?
           </h2>
-          <p className="text-forest/80 mt-1 text-sm">
+          <p className="text-white/90 mt-1 text-sm">
             Free site visits · No-obligation quotes · Fast turnaround
           </p>
         </div>
@@ -19,7 +19,7 @@ export default function CTABanner() {
           </a>
           <a
             href="#enquiry"
-            className="bg-white/30 border border-forest/20 text-forest font-bold px-6 py-3 rounded-lg hover:bg-white/50 transition-colors text-sm whitespace-nowrap"
+            className="bg-white text-forest-dark font-bold px-6 py-3 rounded-lg hover:bg-cream transition-colors text-sm whitespace-nowrap"
           >
             Send an Enquiry
           </a>

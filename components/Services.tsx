@@ -96,7 +96,7 @@ export default function Services() {
 /* SVG icons */
 function TreeSurgeryIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M12 22V12" />
       <path d="M12 12L8 8" />
       <path d="M12 12L16 8" />
@@ -109,7 +109,7 @@ function TreeSurgeryIcon() {
 
 function HedgeIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M3 17h18" />
       <path d="M5 17V9a3 3 0 0 1 6 0v8" />
       <path d="M13 17V9a3 3 0 0 1 6 0v8" />
@@ -121,7 +121,7 @@ function HedgeIcon() {
 
 function FencingIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <line x1="3" y1="6" x2="21" y2="6" />
       <line x1="3" y1="12" x2="21" y2="12" />
       <line x1="6" y1="3" x2="6" y2="21" />
@@ -133,7 +133,7 @@ function FencingIcon() {
 
 function MaintenanceIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z" />
       <path d="M12 6v6l4 2" />
     </svg>
@@ -142,7 +142,7 @@ function MaintenanceIcon() {
 
 function WoodlandIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M17 22V12l-5-8-5 8v10" />
       <path d="M7 22h10" />
       <path d="M12 14v8" />
@@ -152,7 +152,7 @@ function WoodlandIcon() {
 
 function LogsIcon() {
   return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1B4332" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <ellipse cx="12" cy="12" rx="9" ry="5" />
       <line x1="3" y1="12" x2="21" y2="12" />
       <path d="M12 7v10" />
