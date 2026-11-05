@@ -17,12 +17,12 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "A.W. Land & Tree Care | Tree Surgeon in Berkshire",
   description:
-    "NPTC qualified, fully insured tree surgeons serving Newbury and North Berkshire. Tree surgery, hedge cutting, landscaping, grounds maintenance. Free quotes.",
+    "NPTC qualified, fully insured tree surgeons serving Newbury and North Berkshire. Tree surgery, hedge cutting, fencing, landscaping, estate maintenance. Free quotes.",
   keywords: [
     "tree surgeon Berkshire",
     "tree surgery Newbury",
     "hedge cutting Berkshire",
-    "grounds maintenance Newbury",
+    "estate maintenance Newbury",
     "NPTC qualified tree surgeon",
   ],
 };

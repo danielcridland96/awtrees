@@ -12,13 +12,19 @@ const services = [
     icon: HedgeIcon,
   },
   {
-    title: "Landscaping & Fencing",
+    title: "Equestrian Fencing and Landscaping",
     description:
-      "From post-and-rail fencing to full garden redesigns — we source materials locally and handle projects of any scale.",
+      "Post-and-rail paddock fencing, gateways, and ground preparation for stables, yards, and horse owners — built safe and built to last.",
     icon: FencingIcon,
   },
   {
-    title: "Grounds Maintenance",
+    title: "Domestic Fencing and Landscaping",
+    description:
+      "From garden fencing to full garden redesigns — we source materials locally and handle projects of any scale.",
+    icon: FencingIcon,
+  },
+  {
+    title: "Estate Maintenance",
     description:
       "Regular upkeep contracts for residential estates, commercial properties, and schools across Berkshire.",
     icon: MaintenanceIcon,
@@ -28,12 +34,6 @@ const services = [
     description:
       "Hazardous tree removal, selective felling, ride maintenance, and fencing for private woodland owners.",
     icon: WoodlandIcon,
-  },
-  {
-    title: "Seasoned Logs",
-    description:
-      "Locally sourced hardwood logs, kiln-dried and ready to burn. Delivered across the Newbury area.",
-    icon: LogsIcon,
   },
 ];
 
@@ -73,20 +73,6 @@ export default function Services() {
               </p>
             </article>
           ))}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-12">
-          <p className="text-gray-500 text-sm mb-4">
-            Not sure what you need? We offer free site visits and no-obligation
-            quotes.
-          </p>
-          <a
-            href="#enquiry"
-            className="inline-block bg-forest text-cream font-semibold px-6 py-3 rounded-lg hover:bg-forest-dark transition-colors text-sm"
-          >
-            Request a Free Quote
-          </a>
         </div>
       </div>
     </section>
@@ -146,18 +132,6 @@ function WoodlandIcon() {
       <path d="M17 22V12l-5-8-5 8v10" />
       <path d="M7 22h10" />
       <path d="M12 14v8" />
-    </svg>
-  );
-}
-
-function LogsIcon() {
-  return (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#58595B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <ellipse cx="12" cy="12" rx="9" ry="5" />
-      <line x1="3" y1="12" x2="21" y2="12" />
-      <path d="M12 7v10" />
-      <path d="M7.5 9.5L16.5 14.5" />
-      <path d="M7.5 14.5L16.5 9.5" />
     </svg>
   );
 }

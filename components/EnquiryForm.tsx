@@ -6,10 +6,10 @@ import { submitEnquiry, type EnquiryState } from "@/app/actions";
 const SERVICES = [
   "Tree Surgery",
   "Hedge Cutting",
-  "Landscaping & Fencing",
-  "Grounds Maintenance",
+  "Equestrian Fencing and Landscaping",
+  "Domestic Fencing and Landscaping",
+  "Estate Maintenance",
   "Woodland Management",
-  "Seasoned Logs",
   "Other / Not Sure",
 ];
 
