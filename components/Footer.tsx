@@ -60,10 +60,10 @@ export default function Footer() {
             </li>
             <li className="pt-2">
               <a
-                href="#enquiry"
-                className="inline-block bg-forest text-cream text-xs font-bold px-4 py-2 rounded-lg hover:bg-forest-light transition-colors"
+                href="tel:01635282750"
+                className="inline-block bg-gold text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-gold-dark transition-colors"
               >
-                Request a Free Quote
+                Call for a Free Quote
               </a>
             </li>
           </ul>

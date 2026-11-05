@@ -42,15 +42,9 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-3">
           <a
             href="tel:01635282750"
-            className="text-sm font-semibold text-forest hover:text-forest-dark transition-colors"
+            className="bg-gold text-white text-sm font-semibold px-4 py-2 rounded-lg hover:bg-gold-dark transition-colors"
           >
-            01635 282750
-          </a>
-          <a
-            href="#enquiry"
-            className="bg-forest text-cream text-sm font-semibold px-4 py-2 rounded-lg hover:bg-forest-dark transition-colors"
-          >
-            Get a Free Quote
+            Call 01635 282750
           </a>
         </div>
 
@@ -71,13 +65,11 @@ export default function Navbar() {
           <a href="#about" onClick={() => setOpen(false)} className="text-ink hover:text-forest">About</a>
           <a href="#clients" onClick={() => setOpen(false)} className="text-ink hover:text-forest">Clients</a>
           <a href="#contact" onClick={() => setOpen(false)} className="text-ink hover:text-forest">Contact</a>
-          <a href="tel:01635282750" className="font-semibold text-forest">01635 282750</a>
           <a
-            href="#enquiry"
-            onClick={() => setOpen(false)}
-            className="bg-forest text-cream font-semibold px-4 py-2 rounded-lg text-center hover:bg-forest-dark transition-colors"
+            href="tel:01635282750"
+            className="bg-gold text-white font-semibold px-4 py-2 rounded-lg text-center hover:bg-gold-dark transition-colors"
           >
-            Get a Free Quote
+            Call 01635 282750
           </a>
         </div>
       )}

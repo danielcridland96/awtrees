@@ -1,5 +1,3 @@
-import EnquiryForm from "./EnquiryForm";
-
 const USPs = [
   "NPTC qualified arborists on every job",
   "Fully insured — public liability & employers",
@@ -52,26 +50,28 @@ export default function Hero() {
             ))}
           </ul>
 
-          {/* Phone CTA */}
-          <a
-            href="tel:01635282750"
-            className="inline-flex items-center gap-3 group"
-          >
-            <span className="w-10 h-10 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center group-hover:bg-gold/30 transition-colors">
-              <PhoneIcon />
-            </span>
-            <div>
-              <span className="block text-xs text-cream/60 leading-none">Prefer to talk?</span>
-              <span className="block text-xl font-bold text-cream group-hover:text-gold transition-colors">
-                01635 282750
-              </span>
-            </div>
-          </a>
         </div>
 
-        {/* Right: enquiry form */}
+        {/* Right: call card */}
         <div className="lg:pl-4">
-          <EnquiryForm />
+          <div className="bg-white rounded-2xl shadow-xl p-8 text-center">
+            <span className="mx-auto w-14 h-14 rounded-full bg-gold/15 flex items-center justify-center mb-4">
+              <PhoneIcon />
+            </span>
+            <h2 className="font-display text-2xl font-bold text-forest">
+              Get a Free Quote
+            </h2>
+            <p className="text-sm text-gray-500 mt-2 mb-6">
+              Call us now to discuss your project and arrange a free,
+              no-obligation site visit.
+            </p>
+            <a
+              href="tel:01635282750"
+              className="flex items-center justify-center gap-3 bg-gold text-white font-bold text-lg px-6 py-4 rounded-xl hover:bg-gold-dark transition-colors"
+            >
+              Call 01635 282750
+            </a>
+          </div>
         </div>
       </div>
     </section>
