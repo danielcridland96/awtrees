@@ -37,18 +37,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${playfair.variable} h-full scroll-smooth`}
     >
-      <body className="min-h-full flex flex-col antialiased">
-        {/* Logo watermark: fixed, centred, non-interactive, sits under the sticky header */}
-        <div
-          aria-hidden="true"
-          className="pointer-events-none fixed inset-0 z-40 bg-center bg-no-repeat opacity-[0.06]"
-          style={{
-            backgroundImage: "url(/logo.svg)",
-            backgroundSize: "min(80vw, 640px)",
-          }}
-        />
-        {children}
-      </body>
+      <body className="min-h-full flex flex-col antialiased">{children}</body>
     </html>
   );
 }
