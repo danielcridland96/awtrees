@@ -88,7 +88,7 @@ export default function Navbar() {
 function TreeIcon() {
   return (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-      <path d="M16 2L6 14h5l-4 8h6v6h6v-6h6l-4-8h5L16 2z" fill="#1B4332" />
+      <path d="M16 2L6 14h5l-4 8h6v6h6v-6h6l-4-8h5L16 2z" fill="#58595B" />
     </svg>
   );
 }

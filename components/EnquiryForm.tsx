@@ -6,10 +6,10 @@ import { submitEnquiry, type EnquiryState } from "@/app/actions";
 const SERVICES = [
   "Tree Surgery",
   "Hedge Cutting",
-  "Landscaping & Fencing",
-  "Grounds Maintenance",
+  "Equestrian Fencing and Landscaping",
+  "Domestic Fencing and Landscaping",
+  "Estate Maintenance",
   "Woodland Management",
-  "Seasoned Logs",
   "Other / Not Sure",
 ];
 
@@ -146,7 +146,7 @@ export default function EnquiryForm() {
 
 function CheckIcon() {
   return (
-    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#1B4332" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="#58595B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <polyline points="5 14 11 20 23 8" />
     </svg>
   );
